@@ -1,4 +1,4 @@
-*>{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,5 +35,77 @@ a{
 
 .icons{
     width: 25%;
-    align-items: ;
+    
+}
+
+
+/* MAIN CONTENT SECTION */
+
+.row-flex{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+}
+
+.card{
+    width: calc(100% / 3 - (20px / 3));
+    
+
+}
+.img-container{
+    position: relative;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+/* DEBUG SECTION */
+
+.card{
+    /*background-color: #aaaa;
+    height: 100px;*/
+}
+
+h5{
+    color: red;
+}
+
+span{
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: #000;
+}
+
+
+.discount-label, .sostenibile{
+position: absolute;
+    padding: 5px 10px;
+    color: #ffff;
+    background-color: red;
+    top:70%
+    
+}
+
+.sostenibile{
+    background-color: green;
+    left:20%
+}
+
+.hover-img{
+    display: none;
+}
+
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
 }
