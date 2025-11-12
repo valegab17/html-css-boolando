@@ -6,9 +6,18 @@
 
 body {
     font-family: sans-serif;
+    padding-top: 80px;
 }
 
 /*HEADER*/
+header{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom:20px ;
+}
 .nav-bar {
     display: flex;
     height: 80px;
