@@ -131,7 +131,7 @@ footer {
     color: #fff;
     align-items: center;
     margin-top: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 ul{
