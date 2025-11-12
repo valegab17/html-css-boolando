@@ -1,0 +1,39 @@
+*>{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/*HEADER*/
+.nav-bar{
+    display: flex;
+    height: 80px;
+    background-color: orange;
+    align-items: center;
+}
+
+.category{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    width: 25%;
+    display:block;
+    margin: 0 auto;
+}
+
+a{
+    align-self: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons{
+    width: 25%;
+    align-items: ;
+}
