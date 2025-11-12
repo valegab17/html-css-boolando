@@ -55,6 +55,7 @@ a{
 .img-container{
     position: relative;
 }
+
 section{
     width: 80%;
     margin: 0 auto;
@@ -86,7 +87,7 @@ span{
 
 
 .discount-label, .sostenibile{
-position: absolute;
+    position: absolute;
     padding: 5px 10px;
     color: #ffff;
     background-color: red;
@@ -101,6 +102,8 @@ position: absolute;
 
 .hover-img{
     display: none;
+    position:absolute;
+    top:0
 }
 
 .heart{
@@ -108,4 +111,7 @@ position: absolute;
     top: 0;
     right: 0;
     background-color: white;
+}
+.img-container:hover .hover-img{
+    display:block
 }
