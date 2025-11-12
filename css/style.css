@@ -1,86 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
+
 /*HEADER*/
-.nav-bar{
+.nav-bar {
     display: flex;
     height: 80px;
     background-color: orange;
     align-items: center;
 }
 
-.category{
+.category {
     display: flex;
     width: 25%;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.logo{
+.logo {
     width: 25%;
-    display:block;
+    display: block;
     margin: 0 auto;
 }
 
-a{
+a {
     align-self: center;
     text-decoration: none;
     color: #fff;
 }
 
-.icons{
+.icons {
     width: 25%;
-    
+
 }
 
 
 /* MAIN CONTENT SECTION */
 
-.row-flex{
+.row-flex {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
-.card{
+.card {
     width: calc(100% / 3 - (20px / 3));
-    
+
 
 }
-.img-container{
+
+.img-container {
     position: relative;
 }
 
-section{
+section {
     width: 80%;
     margin: 0 auto;
 }
 
-img{
+img {
     width: 100%;
 }
 
-#esprit{
+#esprit {
     left: 0;
 }
 
 /* DEBUG SECTION */
 
-.card{
+.card {
     /*background-color: #aaaa;
     height: 100px;*/
 }
 
-h5{
+h5 {
     color: red;
 }
 
-span{
+span {
     text-decoration: line-through;
     font-size: 0.9rem;
     font-weight: 200;
@@ -88,32 +91,51 @@ span{
 }
 
 
-.discount-label, .sostenibile{
+.discount-label,
+.sostenibile {
     position: absolute;
     padding: 5px 10px;
     color: #ffff;
     background-color: red;
-    top:70%
-    
+    top: 70%
 }
 
-.sostenibile{
+.sostenibile {
     background-color: green;
-    left:20%
+    left: 20%
 }
 
-.hover-img{
+.hover-img {
     display: none;
-    position:absolute;
-    top:0
+    position: absolute;
+    top: 0
 }
 
-.heart{
+.heart {
     position: absolute;
     top: 0;
     right: 0;
     background-color: white;
 }
-.img-container:hover .hover-img{
-    display:block
+
+.img-container:hover .hover-img {
+    display: block
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+
